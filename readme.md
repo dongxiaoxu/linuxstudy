@@ -71,3 +71,13 @@ free : 内存使用情况
         -h 人性化显示
 who : 查看当前登录用户信息
 history : 查看历史指令（历史命令会被保存到用户home/root目录中的.bash_history 文件中）
+
+查看环境变量：
+        export
+设置环境变量：
+        JAVA_HOME=/jdk（设置变量）
+        export JAVA_HOME（设置全局生效）
+        或：export JAVA_HOME=/jdk
+删除环境变量：
+        unset JAVA_HOME（变量名）
+        
